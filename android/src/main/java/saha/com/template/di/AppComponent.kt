@@ -10,12 +10,14 @@ import dagger.Component
 import dagger.android.AndroidInjector
 import dagger.android.support.AndroidSupportInjectionModule
 import saha.com.template.App
+import saha.com.template.ui.MainActivityModule
 import javax.inject.Singleton
 
 @Singleton
 @Component(
     modules = [
-        AndroidSupportInjectionModule::class
+        AndroidSupportInjectionModule::class,
+        MainActivityModule.MainActivityBuilder::class
     ]
 )
 interface AppComponent : AndroidInjector<App> {
