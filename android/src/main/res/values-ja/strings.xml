@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">AndroidApp</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_home">チャット</string>
-    <string name="title_dashboard">探す</string>
-    <string name="title_notifications">アカウント</string>
+    <string name="title_chat">チャット</string>
+    <string name="title_find">探す</string>
+    <string name="title_account">アカウント</string>
 </resources>

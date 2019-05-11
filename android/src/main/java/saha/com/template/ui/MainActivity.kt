@@ -24,16 +24,16 @@ class MainActivity : DaggerAppCompatActivity() {
     private lateinit var textMessage: TextView
     private val onNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
-            R.id.navigation_home -> {
-                textMessage.setText(R.string.title_home)
+            R.id.navigation_chat -> {
+                textMessage.setText(R.string.title_chat)
                 return@OnNavigationItemSelectedListener true
             }
-            R.id.navigation_dashboard -> {
-                textMessage.setText(R.string.title_dashboard)
+            R.id.navigation_find -> {
+                textMessage.setText(R.string.title_find)
                 return@OnNavigationItemSelectedListener true
             }
-            R.id.navigation_notifications -> {
-                textMessage.setText(R.string.title_notifications)
+            R.id.navigation_account -> {
+                textMessage.setText(R.string.title_account)
                 return@OnNavigationItemSelectedListener true
             }
         }

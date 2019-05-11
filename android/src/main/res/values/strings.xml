@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">AndroidApp</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_home">Chat</string>
-    <string name="title_dashboard">Search</string>
-    <string name="title_notifications">Account</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_find">Find</string>
+    <string name="title_account">Account</string>
 </resources>
