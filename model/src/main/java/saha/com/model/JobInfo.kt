@@ -1,7 +1,7 @@
 package saha.com.model
 
 /**
- * Created by chinmoy-saha@dmm.com on 2019-05-11.
+ * Created by chinmoy-saha on 2019-05-11.
  */
 data class Job(
     val id: Int,
