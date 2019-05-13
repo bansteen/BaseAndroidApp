@@ -3,7 +3,6 @@ package saha.com.data.api
 import android.content.Context
 import dagger.BindsInstance
 import dagger.Component
-import saha.com.api.JobApi
 import javax.inject.Singleton
 
 /**

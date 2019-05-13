@@ -1,6 +1,6 @@
 package saha.com.data.api
 
-import saha.com.api.BuildConfig
+import saha.com.template.api.BuildConfig
 
 /**
  * Created by chinmoy-saha on 2019-05-13.

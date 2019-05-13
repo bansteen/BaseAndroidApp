@@ -1,4 +1,4 @@
-package saha.com.api.response
+package saha.com.data.api.response
 
 import kotlinx.serialization.Serializable
 

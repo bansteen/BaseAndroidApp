@@ -9,8 +9,7 @@ import io.ktor.client.features.json.JsonFeature
 import io.ktor.client.features.json.serializer.KotlinxSerializer
 import kotlinx.serialization.json.Json
 import okhttp3.logging.HttpLoggingInterceptor
-import saha.com.api.BuildConfig
-import saha.com.api.JobApi
+import saha.com.template.api.BuildConfig
 import javax.inject.Named
 
 /**

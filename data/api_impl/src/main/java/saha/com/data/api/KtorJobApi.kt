@@ -6,9 +6,8 @@ import io.ktor.client.request.get
 import io.ktor.client.request.url
 import io.ktor.http.ContentType
 import kotlinx.serialization.json.Json
-import saha.com.api.JobApi
-import saha.com.api.response.JobListResponse
-import saha.com.api.response.JobListResponseImpl
+import saha.com.data.api.response.JobListResponse
+import saha.com.data.api.response.JobListResponseImpl
 import kotlin.coroutines.CoroutineContext
 
 /**
