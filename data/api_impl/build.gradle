@@ -16,6 +16,8 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
+        buildConfigField "String", "API_ENDPOINT", "\"https://droidkaigi2019-dev.appspot.com/api\""
+
     }
 
     buildTypes {
