@@ -1,4 +1,4 @@
-package saha.com.api_impl;
+package saha.com.data.api;
 
 import org.junit.Test;
 
