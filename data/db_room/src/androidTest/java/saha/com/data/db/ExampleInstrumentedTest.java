@@ -1,4 +1,4 @@
-package saha.com.data.db_room;
+package saha.com.data.db;
 
 import android.content.Context;
 import androidx.test.InstrumentationRegistry;
