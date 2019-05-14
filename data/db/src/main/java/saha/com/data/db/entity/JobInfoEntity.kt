@@ -1,7 +1,6 @@
 package saha.com.data.db.entity
 
 /**
- * Copyright (C) 2019 DMM.com. All Rights Reserved.
  * Created by chinmoy-saha on 2019-05-14.
  */
 

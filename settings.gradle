@@ -1,1 +1,1 @@
-include ':android', ':model', ':data:api_impl', ':data:api', ':data:db'
+include ':android', ':model', ':data:api_impl', ':data:api', ':data:db', ':data:db_room'
