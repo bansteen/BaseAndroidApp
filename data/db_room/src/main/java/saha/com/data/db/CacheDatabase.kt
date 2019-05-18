@@ -7,14 +7,14 @@ import saha.com.data.db.dao.JobListDao
 import saha.com.data.db.entity.JobInfoEntityImpl
 
 /**
- * Copyright (C) 2019 DMM.com. All Rights Reserved.
  * Created by chinmoy-saha on 2019-05-14.
  */
 @Database(
     entities = [
         (JobInfoEntityImpl::class)
     ],
-    version = 1
+    version = 1,
+    exportSchema = false
 )
 
 abstract class CacheDatabase : RoomDatabase() {
