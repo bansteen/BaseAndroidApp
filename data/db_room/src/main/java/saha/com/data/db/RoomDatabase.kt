@@ -4,11 +4,12 @@ import kotlinx.coroutines.withContext
 import saha.com.data.api.response.JobListResponse
 import saha.com.data.db.dao.JobListDao
 import saha.com.data.db.entity.JobInfoEntity
+import saha.com.data.db.entity.mapper.toJobInfoEntities
 import javax.inject.Inject
 import kotlin.coroutines.coroutineContext
 
 /**
- * Created by chinmoy-saha@dmm.com on 2019-05-18.
+ * Created by chinmoy-saha on 2019-05-18.
  */
 
 class RoomDatabase @Inject constructor(
@@ -21,9 +22,12 @@ class RoomDatabase @Inject constructor(
 
     override suspend fun save(apiResponse: JobListResponse) {
         withContext(coroutineContext) {
-            //TODO use entity mapper to convert api response
-            jobListDao.deleteAll()
-            //TODO insert
+            database.runInTransaction {
+                jobListDao.deleteAll()
+                val jobList = apiResponse.jobList
+                val jobInfoEntities = jobList.toJobInfoEntities()
+                jobListDao.insert(jobInfoEntities)
+            }
         }
     }
 
