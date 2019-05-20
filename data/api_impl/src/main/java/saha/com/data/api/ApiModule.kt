@@ -9,7 +9,6 @@ import io.ktor.client.features.json.JsonFeature
 import io.ktor.client.features.json.serializer.KotlinxSerializer
 import kotlinx.serialization.json.Json
 import okhttp3.logging.HttpLoggingInterceptor
-import saha.com.template.api.BuildConfig
 import javax.inject.Named
 
 /**
@@ -40,7 +39,7 @@ internal abstract class ApiModule {
         }
 
         @JvmStatic @Provides @Named("apiEndpoint") fun apiEndpoint(): String {
-            return saha.com.data.api.apiEndpoint()
+            return saha.com.data.api_impl.apiEndpoint()
         }
     }
 }
