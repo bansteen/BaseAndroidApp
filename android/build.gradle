@@ -26,6 +26,11 @@ android {
 }
 
 dependencies {
+    implementation project(":model")
+    implementation project(':data:db_room')
+    implementation project(':data:repository_impl')
+    implementation project(':data:api_impl')
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.0.2'
