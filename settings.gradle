@@ -1,5 +1,4 @@
-include ':android',
-        ':corecomponent:androidcorecomponent',
+include ':android', ':corecomponent:androidcomponent',
         ':model',
         ':data:api_impl',
         ':data:api',

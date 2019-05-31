@@ -1,4 +1,4 @@
-package saha.com.widget.corecomponent;
+package saha.com.androidcomponent;
 
 import org.junit.Test;
 

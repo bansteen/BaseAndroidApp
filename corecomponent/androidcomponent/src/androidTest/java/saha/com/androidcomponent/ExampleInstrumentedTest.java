@@ -1,4 +1,4 @@
-package saha.com.widget.corecomponent;
+package saha.com.androidcomponent;
 
 import android.content.Context;
 import androidx.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("saha.com.widget.corecomponent.test", appContext.getPackageName());
+        assertEquals("saha.com.androidcomponent.test", appContext.getPackageName());
     }
 }
